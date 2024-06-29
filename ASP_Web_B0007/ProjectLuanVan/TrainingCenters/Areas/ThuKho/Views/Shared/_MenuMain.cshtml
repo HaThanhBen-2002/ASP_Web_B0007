@@ -1,0 +1,152 @@
+﻿@if (TempData["menu"] != null)
+{
+    <!-- Menu -->
+    <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+
+        <div class="app-brand demo">
+            <a asp-area="ThuKho" asp-controller="TrangChu" asp-action="TrangChu" class="app-brand-link">
+                <!-- HÌNH ẢNH ICON -->
+                <img class="w-25 h-25 rounded-circle" src="/AdminAssets/assets/img/favicon/HTB.ico" />
+                <span class="app-brand-text menu-text demo fw-bolder ms-2 text-uppercase">THỦ KHO</span>
+            </a>
+            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+                <i class="bx bx-chevron-left bx-sm align-middle"></i>
+            </a>
+        </div>
+
+        <div class="menu-inner-shadow"></div>
+        <ul class="menu-inner py-1">
+            <!-- Trang chủ-->
+            @if (TempData["menu"] == "TrangChu")
+            {
+                <li class="menu-item active open">
+                    <a asp-area="ThuKho" asp-controller="TrangChu" asp-action="TrangChu" class="menu-link">
+                        <img src="/AdminAssets/assets/img/icons/unicons/trangchu.png"
+                             alt="chart success"
+                             class="rounded w-px-20 h-px-20" />
+                        <div data-i18n="Analytics" class="ms-2 ps-1">Thông tin cá nhân</div>
+                    </a>
+                </li>
+            }
+            else
+            {
+                <li class="menu-item">
+                    <a asp-area="ThuKho" asp-controller="TrangChu" asp-action="TrangChu" class="menu-link">
+                        <img src="/AdminAssets/assets/img/icons/unicons/trangchu.png"
+                             alt="chart success"
+                             class="rounded w-px-20 h-px-20" />
+                        <div data-i18n="Analytics" class="ms-2 ps-1">Thông tin cá nhân</div>
+                    </a>
+                </li>
+            }
+            <!-- Sản phẩm - Lô sản phẩm -->
+            @if (TempData["menu"] == "SanPham" || TempData["menu"] == "LoSanPham")
+            {
+                <li class="menu-item active open">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                        <img src="/AdminAssets/assets/img/icons/unicons/sanpham.png"
+                             alt="chart success"
+                             class="rounded w-px-20 h-px-20" />
+                        <div data-i18n="SanPham" class="ms-2 ps-1">Sản phẩm</div>
+                    </a>
+                    <ul class="menu-sub">
+                        @if (TempData["menu"] == "SanPham")
+                        {
+                            <li class="menu-item active">
+                                <a asp-area="ThuKho" asp-controller="SanPham" asp-action="Index" class="menu-link">
+                                    <div data-i18n="SanPham">Thông tin sản phẩm</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a asp-area="ThuKho" asp-controller="LoSanPham" asp-action="Index" class="menu-link">
+                                    <div data-i18n="LoSanPham">Lô sản phẩm</div>
+                                </a>
+                            </li>
+                        }
+                        @if (TempData["menu"] == "LoSanPham")
+                        {
+                            <li class="menu-item ">
+                                <a asp-area="ThuKho" asp-controller="SanPham" asp-action="Index" class="menu-link">
+                                    <div data-i18n="SanPham">Thông tin sản phẩm</div>
+                                </a>
+                            </li>
+                            <li class="menu-item active">
+                                <a asp-area="ThuKho" asp-controller="LoSanPham" asp-action="Index" class="menu-link">
+                                    <div data-i18n="LoSanPham">Lô sản phẩm</div>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </li>
+            }
+            else
+            {
+                <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                        <img src="/AdminAssets/assets/img/icons/unicons/sanpham.png"
+                             alt="chart success"
+                             class="rounded w-px-20 h-px-20" />
+                        <div data-i18n="SanPham" class="ms-2 ps-1">Sản phẩm</div>
+                    </a>
+                    <ul class="menu-sub">
+                        <li class="menu-item ">
+                            <a asp-area="ThuKho" asp-controller="SanPham" asp-action="Index" class="menu-link">
+                                <div data-i18n="SanPham">Thông tin sản phẩm</div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a asp-area="ThuKho" asp-controller="LoSanPham" asp-action="Index" class="menu-link">
+                                <div data-i18n="LoSanPham">Lô sản phẩm</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            }
+
+            @* Nhà cung cấp *@
+            @if (TempData["menu"] == "NhaCungCap")
+            {
+                <li class="menu-item active open">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                        <img src="/AdminAssets/assets/img/icons/unicons/nhacungcap.png"
+                            alt="chart success"
+                             class="rounded w-px-20 h-px-20" />
+                        <div data-i18n="NhaCungCap" class="ms-2 ps-1">Nhà cung cấp</div>
+                    </a>
+                    <ul class="menu-sub">
+                        @if (TempData["menu"] == "NhaCungCap")
+                        {
+                            <li class="menu-item active">
+                                <a asp-area="ThuKho" asp-controller="NhaCungCap" asp-action="Index" class="menu-link">
+                                    <div data-i18n="NhaCungCap">Thông tin nhà cung cấp</div>
+                                </a>
+                            </li>
+
+                        }
+                    </ul>
+                </li>
+            }
+            else
+            {
+                <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                        <img src="/AdminAssets/assets/img/icons/unicons/nhacungcap.png"
+                             alt="chart success"
+                             class="rounded w-px-20 h-px-20" />
+                        <div data-i18n="NhaCungCap" class="ms-2 ps-1">Nhà cung cấp</div>
+                    </a>
+                    <ul class="menu-sub">
+                        <li class="menu-item ">
+                            <a asp-area="ThuKho" asp-controller="NhaCungCap" asp-action="Index" class="menu-link">
+                                <div data-i18n="NhaCungCap">Thông tin nhà cung cấp</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            }
+
+            <div class="my-5"></div>
+        </ul>
+    </aside>
+    <!-- / Menu -->
+}
