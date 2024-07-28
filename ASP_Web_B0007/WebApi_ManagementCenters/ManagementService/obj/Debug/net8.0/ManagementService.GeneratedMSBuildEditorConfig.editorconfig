@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ManagementService
-build_property.ProjectDir = D:\Code Luận Văn\WebApi_ManagementCenters\ManagementService\
+build_property.ProjectDir = C:\Users\mavuo\OneDrive\Tài liệu\GitHub\ASP_Web_B0007\ASP_Web_B0007\WebApi_ManagementCenters\ManagementService\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,37 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Code Lu\u1EADn V\u0103n\\ProjectLuanVan\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A5578FF2-204F-468E-B748-355D3A7EB958}|TrainingCenters\\TrainingCenters.csproj|d:\\code lu\u1EADn v\u0103n\\projectluanvan\\trainingcenters\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A5578FF2-204F-468E-B748-355D3A7EB958}|TrainingCenters\\TrainingCenters.csproj|solutionrelative:trainingcenters\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\mavuo\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\ASP_Web_B0007\\ASP_Web_B0007\\ProjectLuanVan\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Code Lu\u1EADn V\u0103n\\ProjectLuanVan\\TrainingCenters\\appsettings.json",
-              "RelativeDocumentMoniker": "TrainingCenters\\appsettings.json",
-              "ToolTip": "D:\\Code Lu\u1EADn V\u0103n\\ProjectLuanVan\\TrainingCenters\\appsettings.json",
-              "RelativeToolTip": "TrainingCenters\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-27T09:23:42.865Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

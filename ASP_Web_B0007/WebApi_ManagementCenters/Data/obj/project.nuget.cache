@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yA3zSry8DwJzPXubZL1ABiMANimIKeOdxfxyFAX4cXCUNLlSVta8lU5by/PvMdlTgMIy+LgPAt/yXFoeRSYP7w==",
+  "dgSpecHash": "TfTErK7epuM7iX7rNgolrKaoSBAhLx08Mkb2Jfvgav0pN/4n9CQNVuIg55RYWihsWeVnJQcu8yegLuQ93e7CuQ==",
   "success": true,
-  "projectFilePath": "D:\\Code Luận Văn\\WebApi_ManagementCenters\\Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\mavuo\\OneDrive\\Tài liệu\\GitHub\\ASP_Web_B0007\\ASP_Web_B0007\\WebApi_ManagementCenters\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mavuo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mavuo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -121,7 +121,6 @@ namespace Data.Migrations
                     table.PrimaryKey("PK__MonHoc__990DDC6B53DEDC66", x => x.maMonHoc);
                 });
 
-            
 
             migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LBHmO0oxP1V8lnIvU9TtGsEhQ4fLnOojVBQIRpnVAGlEjwKW0qRyYL+HFxtNWMGO4F9TgIXxALrT+MERC7i5vA==",
+  "dgSpecHash": "L1kEyydkbLvJioWu5YswFba/vbU9TSlgTvg/Ftz06CKhp48QyLVENRSIhleF/FBdq6pqmrPiVtSinFIZVtmgeQ==",
   "success": true,
-  "projectFilePath": "D:\\Code Luận Văn\\WebApi_ManagementCenters\\ManagementService\\ManagementService.csproj",
+  "projectFilePath": "C:\\Users\\mavuo\\OneDrive\\Tài liệu\\GitHub\\ASP_Web_B0007\\ASP_Web_B0007\\WebApi_ManagementCenters\\ManagementService\\ManagementService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mavuo\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\mavuo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
@@ -206,5 +206,16 @@
     "C:\\Users\\mavuo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\mavuo\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MimeKit' 4.4.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-gmc6-fwg3-75m5",
+      "libraryId": "MimeKit",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

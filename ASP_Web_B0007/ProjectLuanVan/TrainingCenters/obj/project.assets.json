@@ -11443,11 +11443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code Luận Văn\\ProjectLuanVan\\TrainingCenters\\TrainingCenters.csproj",
+      "projectUniqueName": "C:\\Users\\mavuo\\OneDrive\\Tài liệu\\GitHub\\ASP_Web_B0007\\ASP_Web_B0007\\ProjectLuanVan\\TrainingCenters\\TrainingCenters.csproj",
       "projectName": "TrainingCenters",
-      "projectPath": "D:\\Code Luận Văn\\ProjectLuanVan\\TrainingCenters\\TrainingCenters.csproj",
+      "projectPath": "C:\\Users\\mavuo\\OneDrive\\Tài liệu\\GitHub\\ASP_Web_B0007\\ASP_Web_B0007\\ProjectLuanVan\\TrainingCenters\\TrainingCenters.csproj",
       "packagesPath": "C:\\Users\\mavuo\\.nuget\\packages\\",
-      "outputPath": "D:\\Code Luận Văn\\ProjectLuanVan\\TrainingCenters\\obj\\",
+      "outputPath": "C:\\Users\\mavuo\\OneDrive\\Tài liệu\\GitHub\\ASP_Web_B0007\\ASP_Web_B0007\\ProjectLuanVan\\TrainingCenters\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11534,5 +11534,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MimeKit' 4.4.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-gmc6-fwg3-75m5",
+      "libraryId": "MimeKit",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
